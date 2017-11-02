@@ -12,7 +12,8 @@ class Main extends Component {
                     </div>
 
                 </div>
-                <div>
+                <div className="unit">
+                    <p>
                     <strong>Time is running out before Trump’s FCC and Big Cable destroy net neutrality — but we can still stop them.</strong>
                     <br/><br/>
                     <strong>Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.</strong>
@@ -24,6 +25,7 @@ class Main extends Component {
                     If we flood Congress with petitions and calls, there’s a chance we can still stop Trump’s hand-picked FCC Chair Ajit Pai and Big Cable before November 22. <strong>Will you sign the petition and call Congress to let your lawmakers know you want them to publicly oppose Pai’s plan to destroy net neutrality?</strong>
                     <br/><br/>
                     Without net neutrality, the Internet will look more like cable TV — where the content we see is controlled by corporations like Comcast and Verizon. We can’t afford to see the internet—a place where the exchange of ideas, democratic participation and the ability to organize has flourished—turn into cable TV. <strong>Sign the petition and call Congress today.</strong>
+                    </p>
                 </div>
             </div>
         </div>);

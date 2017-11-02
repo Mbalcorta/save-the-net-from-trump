@@ -139,45 +139,49 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
-	                        null,
+	                        { className: 'unit' },
 	                        _react2.default.createElement(
-	                            'strong',
+	                            'p',
 	                            null,
-	                            'Time is running out before Trump\u2019s FCC and Big Cable destroy net neutrality \u2014 but we can still stop them.'
-	                        ),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement(
-	                            'strong',
-	                            null,
-	                            'Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.'
-	                        ),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience \u2014 fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.',
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'The U.S. public overwhelmingly supports net neutrality, regardless of political affiliations. ',
-	                        _react2.default.createElement(
-	                            'strong',
-	                            null,
-	                            'Now, we\u2019re hearing that key lawmakers are considering taking action to slow Pai down \u2014 but they need to hear more from constituents to push them to act. That\u2019s where you come in.'
-	                        ),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'If we flood Congress with petitions and calls, there\u2019s a chance we can still stop Trump\u2019s hand-picked FCC Chair Ajit Pai and Big Cable before November 22. ',
-	                        _react2.default.createElement(
-	                            'strong',
-	                            null,
-	                            'Will you sign the petition and call Congress to let your lawmakers know you want them to publicly oppose Pai\u2019s plan to destroy net neutrality?'
-	                        ),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'Without net neutrality, the Internet will look more like cable TV \u2014 where the content we see is controlled by corporations like Comcast and Verizon. We can\u2019t afford to see the internet\u2014a place where the exchange of ideas, democratic participation and the ability to organize has flourished\u2014turn into cable TV. ',
-	                        _react2.default.createElement(
-	                            'strong',
-	                            null,
-	                            'Sign the petition and call Congress today.'
+	                            _react2.default.createElement(
+	                                'strong',
+	                                null,
+	                                'Time is running out before Trump\u2019s FCC and Big Cable destroy net neutrality \u2014 but we can still stop them.'
+	                            ),
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement(
+	                                'strong',
+	                                null,
+	                                'Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.'
+	                            ),
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience \u2014 fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.',
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'The U.S. public overwhelmingly supports net neutrality, regardless of political affiliations. ',
+	                            _react2.default.createElement(
+	                                'strong',
+	                                null,
+	                                'Now, we\u2019re hearing that key lawmakers are considering taking action to slow Pai down \u2014 but they need to hear more from constituents to push them to act. That\u2019s where you come in.'
+	                            ),
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'If we flood Congress with petitions and calls, there\u2019s a chance we can still stop Trump\u2019s hand-picked FCC Chair Ajit Pai and Big Cable before November 22. ',
+	                            _react2.default.createElement(
+	                                'strong',
+	                                null,
+	                                'Will you sign the petition and call Congress to let your lawmakers know you want them to publicly oppose Pai\u2019s plan to destroy net neutrality?'
+	                            ),
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'Without net neutrality, the Internet will look more like cable TV \u2014 where the content we see is controlled by corporations like Comcast and Verizon. We can\u2019t afford to see the internet\u2014a place where the exchange of ideas, democratic participation and the ability to organize has flourished\u2014turn into cable TV. ',
+	                            _react2.default.createElement(
+	                                'strong',
+	                                null,
+	                                'Sign the petition and call Congress today.'
+	                            )
 	                        )
 	                    )
 	                )
