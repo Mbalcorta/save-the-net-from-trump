@@ -568,7 +568,7 @@ template {
     margin: 10px 0 10px 0;
 }
 
-.bftn-homepage .call-action-form input {
+.bftn-homepage .call-action-form input, .bftn-homepage .call-action-form button {
     margin-right: 10px;
     text-align: center;
 }

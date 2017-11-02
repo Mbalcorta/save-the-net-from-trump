@@ -5162,7 +5162,7 @@
 	                            _react2.default.createElement(
 	                                "a",
 	                                { className: "twitter", href: "https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend%20%23NetNeutrality%20https://www.battleforthenet.com", target: "_blank" },
-	                                _react2.default.createElement("img", { src: "/images/share/twitter_white.svg" }),
+	                                _react2.default.createElement("img", { src: "images/twitter_white.svg" }),
 	                                _react2.default.createElement(
 	                                    "span",
 	                                    null,
@@ -5172,7 +5172,7 @@
 	                            _react2.default.createElement(
 	                                "a",
 	                                { className: "facebook", href: "https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/", target: "_blank" },
-	                                _react2.default.createElement("img", { src: "/images/share/facebook_white.svg" }),
+	                                _react2.default.createElement("img", { src: "images/facebook_white.svg" }),
 	                                _react2.default.createElement(
 	                                    "span",
 	                                    null,
@@ -5193,28 +5193,6 @@
 	                        " ",
 	                        _react2.default.createElement("img", { src: "/images/v2/credit-fftf.png", srcSet: "/images/v2/credit-fftf-x2.png 2x" })
 	                    )
-	                ),
-	                _react2.default.createElement(
-	                    "a",
-	                    { href: "https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend%20%23NetNeutrality%20https://www.battleforthenet.com", target: "_blank", className: "share-bar twitter" },
-	                    _react2.default.createElement(
-	                        "span",
-	                        null,
-	                        "Share on twitter"
-	                    ),
-	                    " ",
-	                    _react2.default.createElement("img", { src: "/images/share/twitter_white.svg" })
-	                ),
-	                _react2.default.createElement(
-	                    "a",
-	                    { href: "https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/", target: "_blank", className: "share-bar facebook" },
-	                    _react2.default.createElement(
-	                        "span",
-	                        null,
-	                        "Share on facebook"
-	                    ),
-	                    " ",
-	                    _react2.default.createElement("img", { src: "/images/share/facebook_white.svg" })
 	                )
 	            );
 	        }

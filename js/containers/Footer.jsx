@@ -30,11 +30,11 @@ class Footer extends Component {
                         </div>
                         <div className="social-media">
                             <a className="twitter" href="https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend%20%23NetNeutrality%20https://www.battleforthenet.com" target="_blank">
-                                <img src="/images/share/twitter_white.svg" />
+                                <img src="images/twitter_white.svg" />
                                 <span>Share on twitter</span>
                             </a>
                             <a className="facebook" href="https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/" target="_blank">
-                                <img src="/images/share/facebook_white.svg" />
+                                <img src="images/facebook_white.svg" />
                                 <span>Share on facebook</span>
                             </a>
                         </div>
@@ -44,12 +44,6 @@ class Footer extends Component {
                         <span>Built by:</span> <img src="/images/v2/credit-fftf.png" srcSet="/images/v2/credit-fftf-x2.png 2x" />
                     </div>
                 </div>
-                <a href="https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend%20%23NetNeutrality%20https://www.battleforthenet.com" target="_blank" className="share-bar twitter">
-                    <span>Share on twitter</span> <img src="/images/share/twitter_white.svg" />
-                </a>
-                <a href="https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/" target="_blank" className="share-bar facebook">
-                    <span>Share on facebook</span> <img src="/images/share/facebook_white.svg" />
-                </a>
             </footer>);
     }
 }
