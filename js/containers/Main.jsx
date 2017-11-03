@@ -13,8 +13,8 @@ class Main extends Component {
 
                 </div>
                 <div className="unit">
-                    <p>
-                    <strong>Time is running out before Trump’s FCC and Big Cable destroy net neutrality — but we can still stop them.</strong>
+                    <p style={{color: 'white'}}>
+                    <strong style={{ fontSize: "30px" }}>Time is running out before Trump’s FCC and Big Cable destroy net neutrality — but we can still stop them.</strong>
                     <br/><br/>
                     <strong>Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.</strong>
                     <br/><br/>

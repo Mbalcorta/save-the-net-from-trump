@@ -142,10 +142,10 @@
 	                        { className: 'unit' },
 	                        _react2.default.createElement(
 	                            'p',
-	                            null,
+	                            { style: { color: 'white' } },
 	                            _react2.default.createElement(
 	                                'strong',
-	                                null,
+	                                { style: { fontSize: "30px" } },
 	                                'Time is running out before Trump\u2019s FCC and Big Cable destroy net neutrality \u2014 but we can still stop them.'
 	                            ),
 	                            _react2.default.createElement('br', null),
@@ -5068,7 +5068,7 @@
 	        key: "render",
 	        value: function render() {
 	            return _react2.default.createElement(
-	                "footer",
+	                "div",
 	                { className: "footer" },
 	                _react2.default.createElement(
 	                    "div",
@@ -5078,18 +5078,58 @@
 	                        { className: "logos" },
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "fftf", href: "https://www.fightforthefuture.org/" },
-	                            _react2.default.createElement("img", { src: "/images/v2/footer-fftf-logo.png", srcSet: "/images/v2/footer-fftf-logo-x2.png 2x" })
+	                            { target: "_blank", href: "https://www.dailykos.com/" },
+	                            _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "demandprogress", href: "https://demandprogress.org/" },
-	                            _react2.default.createElement("img", { src: "/images/v2/footer-demandprogress-logo.png", srcSet: "/images/v2/footer-demandprogress-logo-x2.png 2x" })
+	                            { target: "_blank", href: "https://www.lovearmy.org/" },
+	                            _react2.default.createElement("img", { src: "images/Love Army 1.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { className: "freepress", href: "https://www.freepress.net/" },
-	                            _react2.default.createElement("img", { src: "/images/v2/footer-freepress-logo.png", srcSet: "/images/v2/footer-freepress-logo-x2.png 2x" })
+	                            { target: "_blank", href: "https://www.thenation.com/" },
+	                            _react2.default.createElement("img", { src: "images/Nation.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "http://www.pfaw.org/" },
+	                            _react2.default.createElement("img", { src: "images/PFAW.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "http://rootsaction.org/" },
+	                            _react2.default.createElement("img", { src: "images/RootsAction.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/CMJ logo hi-res.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/CC_Logo_RBGWeb.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/pkname-large (4).png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/IMG_9304.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/Pen_Box_lrg (1).jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "http://www.peopledemandingaction.org/" },
+	                            _react2.default.createElement("img", { style: { maxWidth: '150px' }, src: "images/Logo-PeopleDemandingAction.jpg" })
 	                        )
 	                    ),
 	                    _react2.default.createElement("div", { className: "spacer" }),
@@ -5109,36 +5149,6 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    "a",
-	                                    { href: "tel://1-978-852-6457" },
-	                                    "978-852-6457"
-	                                ),
-	                                " or ",
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { href: "tel://1-978-852-6457" },
-	                                    "978-852-6457"
-	                                ),
-	                                " or ",
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { href: "mailto:press@fightforthefuture.org" },
-	                                    "press@fightforthefuture.org"
-	                                ),
-	                                _react2.default.createElement("br", null),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { className: "no-em", href: "tel://1-201-533-8838" },
-	                                    "201-533-8838"
-	                                ),
-	                                " or ",
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { href: "mailto:tkarr@freepress.net" },
-	                                    "tkarr@freepress.net"
-	                                ),
-	                                _react2.default.createElement("br", null),
-	                                _react2.default.createElement(
-	                                    "a",
 	                                    { className: "no-em", href: "tel://1-202-681-7582" },
 	                                    "202-681-7582"
 	                                ),
@@ -5149,14 +5159,14 @@
 	                                    "press@demandprogress.org"
 	                                )
 	                            ),
+	                            _react2.default.createElement("br", null),
 	                            _react2.default.createElement(
 	                                "p",
 	                                null,
-	                                "All other inquiries, contact ",
 	                                _react2.default.createElement(
 	                                    "a",
-	                                    { href: "mailto:team@fightforthefuture.org" },
-	                                    "team@fightforthefuture.org"
+	                                    { href: "https://demandprogress.org/privacy-policy/", target: "_blank" },
+	                                    "Our privacy policy"
 	                                )
 	                            )
 	                        ),
@@ -5195,7 +5205,7 @@
 	                            "Built by:"
 	                        ),
 	                        " ",
-	                        _react2.default.createElement("img", { src: "/images/v2/credit-fftf.png", srcSet: "/images/v2/credit-fftf-x2.png 2x" })
+	                        _react2.default.createElement("img", { src: "images/demand-progress.png" })
 	                    )
 	                )
 	            );

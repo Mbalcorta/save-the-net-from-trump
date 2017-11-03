@@ -766,6 +766,11 @@ template {
     line-height: 62px;
 }
 
+.bftn-homepage footer .logos img {
+    max-width: 250px;
+    margin: 15px;
+}
+
 .bftn-homepage footer .logos .fftf {
     margin-right: 40px;
     position: relative;
@@ -847,7 +852,7 @@ template {
 
 .bftn-homepage footer .social-media .twitter {
     background-color: #2ecaf8;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -879,6 +884,7 @@ template {
 .bftn-homepage footer .built-by img {
     position: relative;
     top: 2px;
+    width: 300px;
 }
 
 .bftn-homepage .video-roll {
