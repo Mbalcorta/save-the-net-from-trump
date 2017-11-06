@@ -757,9 +757,15 @@ template {
 }
 
 .bftn-homepage footer .logos {
+    width: 1000px;
     padding: 20px 0;
     border-bottom: 2px solid #393558;
     text-align: center;
+}
+
+.bftn-homepage footer .logos-unit {
+    width: 1000px;
+    margin: 0px auto;
 }
 
 .bftn-homepage footer .logos a {

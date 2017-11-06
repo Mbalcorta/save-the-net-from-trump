@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="unit">
+                <div className="logos-unit">
                     <div className="logos">
                         <a target="_blank" href="https://www.dailykos.com/">
                             <img src="images/DailyKosLogo.png" />
@@ -47,6 +47,26 @@ class Footer extends Component {
                             <img src="images/Pen_Box_lrg (1).jpg" />
                         </a>
 
+                        <a target="_blank" href="">
+                            <img src="images/IMG_8465.jpg" />
+                        </a>
+
+                        <a target="_blank" href="">
+                            <img src="images/fp-actionfund.png" />
+                        </a>
+
+                        <a target="_blank" href="">
+                            <img src="images/PC logo-high resolution.jpg" />
+                        </a>
+
+                        <a target="_blank" href="">
+                            <img src="images/PresenteAction2016.png" />
+                        </a>
+
+                        <a target="_blank" href="">
+                            <img src="images/PasAFV.png" />
+                        </a>
+
                         <a target="_blank" href="http://www.peopledemandingaction.org/">
                             <img style={{maxWidth: '150px'}} src="images/Logo-PeopleDemandingAction.jpg" />
                         </a>
@@ -65,7 +85,7 @@ class Footer extends Component {
                             </p>
                         </div>
                         <div className="social-media">
-                            <a className="twitter" href="https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend%20%23NetNeutrality%20https://www.battleforthenet.com" target="_blank">
+                            <a className="twitter" href="https://twitter.com/intent/tweet?text=Call%20Congress!%20Time%27s%20running%20out%20before%20Trump%E2%80%99s%20FCC%20%26%20Big%20Cable%20destroy%20%23NetNeutrality%20%E2%80%94%20but%20we%20can%20still%20stop%20them%20https%3A%2F%2Fdemand-progress.github.io%2Fsave-the-net-from-trump%2F" target="_blank">
                                 <img src="images/twitter_white.svg" />
                                 <span>Share on twitter</span>
                             </a>

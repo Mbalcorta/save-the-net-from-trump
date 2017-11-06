@@ -4809,6 +4809,7 @@
 	        var _this = _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).call(this, props));
 
 	        _this.state = (0, _utils.getQueryVariables)();
+	        _this.state.submitted = false;
 	        return _this;
 	    }
 
@@ -4858,27 +4859,40 @@
 	                ),
 	                _react2.default.createElement(
 	                    'div',
-	                    { className: 'flex' },
-	                    _react2.default.createElement('input', { type: 'text', className: 'form-input', name: 'name', placeholder: 'Your Name' }),
-	                    _react2.default.createElement('input', { type: 'email', className: 'form-input', name: 'email', placeholder: 'Your Email' })
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'flex' },
-	                    _react2.default.createElement('input', { type: 'text', className: 'form-input', name: 'street', placeholder: 'Street Address' }),
-	                    _react2.default.createElement('input', { type: 'text', className: 'form-input', name: 'zip', placeholder: 'Your Zipcode' })
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'flex' },
+	                    { style: { 'display': this.state.submitted ? 'none' : '' } },
 	                    _react2.default.createElement(
-	                        'button',
-	                        { className: 'btn' },
+	                        'div',
+	                        { className: 'flex' },
+	                        _react2.default.createElement('input', { type: 'text', className: 'form-input', name: 'name', placeholder: 'Your Name' }),
+	                        _react2.default.createElement('input', { type: 'email', className: 'form-input', name: 'email', placeholder: 'Your Email' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'flex' },
+	                        _react2.default.createElement('input', { type: 'text', className: 'form-input', name: 'street', placeholder: 'Street Address' }),
+	                        _react2.default.createElement('input', { type: 'text', className: 'form-input', name: 'zip', placeholder: 'Your Zipcode' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'flex' },
 	                        _react2.default.createElement(
-	                            'span',
-	                            null,
-	                            'Submit'
+	                            'button',
+	                            { className: 'btn' },
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Submit'
+	                            )
 	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'h4',
+	                    { style: { 'display': this.state.submitted ? '' : 'none' } },
+	                    _react2.default.createElement(
+	                        'strong',
+	                        null,
+	                        'Thanks for signing!'
 	                    )
 	                )
 	            );
@@ -4942,6 +4956,7 @@
 	                'want_progress': 1
 	            };
 
+	            this.setState({ submitted: true });
 	            this.sendFormToActionKit(fields);
 	        }
 	    }, {
@@ -5072,7 +5087,7 @@
 	                { className: "footer" },
 	                _react2.default.createElement(
 	                    "div",
-	                    { className: "unit" },
+	                    { className: "logos-unit" },
 	                    _react2.default.createElement(
 	                        "div",
 	                        { className: "logos" },
@@ -5128,6 +5143,31 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/IMG_8465.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/fp-actionfund.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/PC logo-high resolution.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/PresenteAction2016.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank", href: "" },
+	                            _react2.default.createElement("img", { src: "images/PasAFV.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
 	                            { target: "_blank", href: "http://www.peopledemandingaction.org/" },
 	                            _react2.default.createElement("img", { style: { maxWidth: '150px' }, src: "images/Logo-PeopleDemandingAction.jpg" })
 	                        )
@@ -5175,7 +5215,7 @@
 	                            { className: "social-media" },
 	                            _react2.default.createElement(
 	                                "a",
-	                                { className: "twitter", href: "https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend%20%23NetNeutrality%20https://www.battleforthenet.com", target: "_blank" },
+	                                { className: "twitter", href: "https://twitter.com/intent/tweet?text=Call%20Congress!%20Time%27s%20running%20out%20before%20Trump%E2%80%99s%20FCC%20%26%20Big%20Cable%20destroy%20%23NetNeutrality%20%E2%80%94%20but%20we%20can%20still%20stop%20them%20https%3A%2F%2Fdemand-progress.github.io%2Fsave-the-net-from-trump%2F", target: "_blank" },
 	                                _react2.default.createElement("img", { src: "images/twitter_white.svg" }),
 	                                _react2.default.createElement(
 	                                    "span",

@@ -8,10 +8,12 @@ class Form extends Component {
         super(props);
 
         this.state = getQueryVariables();
+        this.state.submitted = false;
     }
 
     render() {
         return (<form className="bftn-form call-action-form" onSubmit={ this.onSubmit.bind(this) }>
+
             <h4><strong>Sign to Tell Congress:</strong></h4>
             <h3>Oppose Trump FCC’s plan to destroy net neutrality and the open internet</h3>
             <p><i>If implemented, the plan from Trump’s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.
@@ -22,6 +24,7 @@ class Form extends Component {
                 <br/><br/>
                 As your constituent, I urge you to strongly and publicly oppose Pai’s plan to end Title II net neutrality protections.</i>
             </p>
+            <div style={{ 'display' : this.state.submitted ? 'none' : ''}}>
             <div className="flex">
                 <input type="text" className="form-input" name="name" placeholder="Your Name" />
                 <input type="email" className="form-input" name="email" placeholder="Your Email" />
@@ -35,6 +38,8 @@ class Form extends Component {
                     <span>Submit</span>
                 </button>
             </div>
+            </div>
+            <h4 style={{ 'display' : this.state.submitted ? '' : 'none'}}><strong>Thanks for signing!</strong></h4>
         </form>);
     }
 
@@ -96,6 +101,7 @@ class Form extends Component {
             'want_progress': 1
         };
 
+        this.setState({ submitted: true });
         this.sendFormToActionKit(fields);
     }
 
