@@ -26,8 +26,8 @@ class Main extends Component {
                         "As your constituent, I urge you to strongly and publicly oppose Pai’s plan to end Title II net neutrality protections.
                     </i></p>
                     <hr/>
+                    <h4 style={{color: 'white'}}>More information:</h4>
                     <p>
-                        <h4 style={{color: 'white'}}>More information:</h4>
                         If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience — fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.
                         <br/><br/>
                         The U.S. public overwhelmingly supports net neutrality, regardless of political affiliations. <strong>Now, we’re hearing that key lawmakers are considering taking action to slow Pai down — but they need to hear more from constituents to push them to act. That’s where you come in.</strong>

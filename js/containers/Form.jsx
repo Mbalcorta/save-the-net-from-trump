@@ -9,6 +9,7 @@ class Form extends Component {
 
         this.state = getQueryVariables();
         this.state.submitted = false;
+        this.state.countDown = 10;
     }
 
     render() {
@@ -38,8 +39,22 @@ class Form extends Component {
             </div>
             </div>
             <span><i>One or more participating organizations (listed at bottom) may email you about their campaigns.</i></span>
-            <h4 style={{ 'display' : this.state.submitted ? '' : 'none'}}><strong>Thanks for signing!</strong></h4>
+            <div id="thanks" style={{ 'display' : this.state.submitted ? '' : 'none'}}>
+                <h4>Thanks for signing.</h4>
+                <p>
+                    Now we will forward you to a page that makes it easy for you to call Congress about net neutrality --&nbsp;
+                    <strong>which is the best way to have a big impact.</strong>
+                </p>
+                <h4>{this.state.countDown}</h4>
+            </div>
         </form>);
+    }
+
+    countDownToRedirect() {
+        if (this.state.countDown <= 1) {
+            window.location.href = "https://battleforthenet.com";
+        }
+        this.setState( { countDown: this.state.countDown - 1 });
     }
 
     onSubmit(evt) {
@@ -100,8 +115,11 @@ class Form extends Component {
             'want_progress': 1
         };
 
-        this.setState({ submitted: true });
         this.sendFormToActionKit(fields);
+
+        this.setState({ submitted: true });
+
+        setInterval(this.countDownToRedirect.bind(this), 1000);
     }
 
     sendFormToActionKit(fields) {

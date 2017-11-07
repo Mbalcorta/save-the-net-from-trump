@@ -2062,3 +2062,21 @@ template {
     color: #ff1a09;
     font-size: 24px;
 }
+
+#thanks {
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid;
+    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    z-index: 1000;
+    max-width: 600px;
+}
+
+#thanks p {
+    color: #444;
+}

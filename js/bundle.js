@@ -169,13 +169,13 @@
 	                        ),
 	                        _react2.default.createElement('hr', null),
 	                        _react2.default.createElement(
+	                            'h4',
+	                            { style: { color: 'white' } },
+	                            'More information:'
+	                        ),
+	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            _react2.default.createElement(
-	                                'h4',
-	                                { style: { color: 'white' } },
-	                                'More information:'
-	                            ),
 	                            'If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience \u2014 fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.',
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
@@ -4829,6 +4829,7 @@
 
 	        _this.state = (0, _utils.getQueryVariables)();
 	        _this.state.submitted = false;
+	        _this.state.countDown = 10;
 	        return _this;
 	    }
 
@@ -4910,15 +4911,38 @@
 	                    )
 	                ),
 	                _react2.default.createElement(
-	                    'h4',
-	                    { style: { 'display': this.state.submitted ? '' : 'none' } },
+	                    'div',
+	                    { id: 'thanks', style: { 'display': this.state.submitted ? '' : 'none' } },
 	                    _react2.default.createElement(
-	                        'strong',
+	                        'h4',
 	                        null,
-	                        'Thanks for signing!'
+	                        'Thanks for signing.'
+	                    ),
+	                    _react2.default.createElement(
+	                        'p',
+	                        null,
+	                        'Now we will forward you to a page that makes it easy for you to call Congress about net neutrality --\xA0',
+	                        _react2.default.createElement(
+	                            'strong',
+	                            null,
+	                            'which is the best way to have a big impact.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'h4',
+	                        null,
+	                        this.state.countDown
 	                    )
 	                )
 	            );
+	        }
+	    }, {
+	        key: 'countDownToRedirect',
+	        value: function countDownToRedirect() {
+	            if (this.state.countDown <= 1) {
+	                window.location.href = "https://battleforthenet.com";
+	            }
+	            this.setState({ countDown: this.state.countDown - 1 });
 	        }
 	    }, {
 	        key: 'onSubmit',
@@ -4979,8 +5003,11 @@
 	                'want_progress': 1
 	            };
 
-	            this.setState({ submitted: true });
 	            this.sendFormToActionKit(fields);
+
+	            this.setState({ submitted: true });
+
+	            setInterval(this.countDownToRedirect.bind(this), 1000);
 	        }
 	    }, {
 	        key: 'sendFormToActionKit',
