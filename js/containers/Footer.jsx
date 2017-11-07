@@ -7,7 +7,7 @@ class Footer extends Component {
             <div className="footer">
                 <div className="logos-unit">
                     <div className="built-by">
-                        <p>Built by:</p> <img src="images/demand-progress.png" />
+                        <p><br/><br/>Built by:</p> <img src="images/demand-progress.png" />
                         <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
                     </div>
                     <div className="logos">

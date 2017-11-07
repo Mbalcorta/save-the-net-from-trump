@@ -5144,6 +5144,8 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
+	                            _react2.default.createElement("br", null),
+	                            _react2.default.createElement("br", null),
 	                            "Built by:"
 	                        ),
 	                        " ",
