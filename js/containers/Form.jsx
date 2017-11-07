@@ -9,7 +9,7 @@ class Form extends Component {
 
         this.state = getQueryVariables();
         this.state.submitted = false;
-        this.state.countDown = 10;
+        this.state.countDown = 5;
     }
 
     render() {

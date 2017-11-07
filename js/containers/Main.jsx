@@ -23,7 +23,7 @@ class Main extends Component {
                         <br/><br/>
                         "Now is the time to stand up against this plan to destroy net neutrality — which would kill free expression and innovation online. Stand with your constituents, not Comcast.
                         <br/><br/>
-                        "As your constituent, I urge you to strongly and publicly oppose Pai’s plan to end Title II net neutrality protections.
+                        "As your constituent, I urge you to strongly and publicly oppose Pai’s plan to end Title II net neutrality protections."
                     </i></p>
                     <hr/>
                     <h4 style={{color: 'white'}}>More information:</h4>

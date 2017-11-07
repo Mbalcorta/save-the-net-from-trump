@@ -6,6 +6,10 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="logos-unit">
+                    <div className="built-by">
+                        <p>Built by:</p> <img src="images/demand-progress.png" />
+                        <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
+                    </div>
                     <div className="logos">
                         <a target="_blank">
                             <img src="images/PasAFV.png" />
@@ -21,14 +25,6 @@ class Footer extends Component {
 
                         <a target="_blank">
                             <img src="images/common_cause_logo.jpg" />
-                        </a>
-
-                        <a target="_blank">
-                            <img src="images/DailyKosLogo.png" />
-                        </a>
-
-                        <a target="_blank">
-                            <img src="images/demand-progress.png" />
                         </a>
 
                         <a target="_blank">
@@ -101,7 +97,7 @@ class Footer extends Component {
                             </p>
                         </div>
                         <div className="social-media">
-                            <a className="twitter" href="https://twitter.com/intent/tweet?text=Call%20Congress!%20Time%27s%20running%20out%20before%20Trump%E2%80%99s%20FCC%20%26%20Big%20Cable%20destroy%20%23NetNeutrality%20%E2%80%94%20but%20we%20can%20still%20stop%20them%20https%3A%2F%2Fdemand-progress.github.io%2Fsave-the-net-from-trump%2F" target="_blank">
+                            <a className="twitter" href="https://twitter.com/intent/tweet?text=Call%20Congress!%20Time%27s%20running%20out%20before%20Trump%E2%80%99s%20FCC%20%26%20Big%20Cable%20destroy%20%23NetNeutrality%20%E2%80%94%20but%20we%20can%20still%20stop%20them%20https%3A%2F%2Fsavethenetfromtrump.com%2F" target="_blank">
                                 <img src="images/twitter_white.svg" />
                                 <span>Share on twitter</span>
                             </a>
@@ -110,11 +106,6 @@ class Footer extends Component {
                                 <span>Share on facebook</span>
                             </a>
                         </div>
-                    </div>
-                    <div className="spacer"></div>
-                    <div className="built-by">
-                        <p>Built by:</p> <img src="images/demand-progress.png" />
-                        <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
                     </div>
                 </div>
             </div>);

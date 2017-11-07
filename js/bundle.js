@@ -164,7 +164,7 @@
 	                                '"Now is the time to stand up against this plan to destroy net neutrality \u2014 which would kill free expression and innovation online. Stand with your constituents, not Comcast.',
 	                                _react2.default.createElement('br', null),
 	                                _react2.default.createElement('br', null),
-	                                '"As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections.'
+	                                '"As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections."'
 	                            )
 	                        ),
 	                        _react2.default.createElement('hr', null),
@@ -4829,7 +4829,7 @@
 
 	        _this.state = (0, _utils.getQueryVariables)();
 	        _this.state.submitted = false;
-	        _this.state.countDown = 10;
+	        _this.state.countDown = 5;
 	        return _this;
 	    }
 
@@ -5140,6 +5140,24 @@
 	                    { className: "logos-unit" },
 	                    _react2.default.createElement(
 	                        "div",
+	                        { className: "built-by" },
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "Built by:"
+	                        ),
+	                        " ",
+	                        _react2.default.createElement("img", { src: "images/demand-progress.png" }),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "In partnership with: "
+	                        ),
+	                        " ",
+	                        _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
 	                        { className: "logos" },
 	                        _react2.default.createElement(
 	                            "a",
@@ -5160,16 +5178,6 @@
 	                            "a",
 	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/common_cause_logo.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank" },
-	                            _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank" },
-	                            _react2.default.createElement("img", { src: "images/demand-progress.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
@@ -5285,7 +5293,7 @@
 	                            { className: "social-media" },
 	                            _react2.default.createElement(
 	                                "a",
-	                                { className: "twitter", href: "https://twitter.com/intent/tweet?text=Call%20Congress!%20Time%27s%20running%20out%20before%20Trump%E2%80%99s%20FCC%20%26%20Big%20Cable%20destroy%20%23NetNeutrality%20%E2%80%94%20but%20we%20can%20still%20stop%20them%20https%3A%2F%2Fdemand-progress.github.io%2Fsave-the-net-from-trump%2F", target: "_blank" },
+	                                { className: "twitter", href: "https://twitter.com/intent/tweet?text=Call%20Congress!%20Time%27s%20running%20out%20before%20Trump%E2%80%99s%20FCC%20%26%20Big%20Cable%20destroy%20%23NetNeutrality%20%E2%80%94%20but%20we%20can%20still%20stop%20them%20https%3A%2F%2Fsavethenetfromtrump.com%2F", target: "_blank" },
 	                                _react2.default.createElement("img", { src: "images/twitter_white.svg" }),
 	                                _react2.default.createElement(
 	                                    "span",
@@ -5304,25 +5312,6 @@
 	                                )
 	                            )
 	                        )
-	                    ),
-	                    _react2.default.createElement("div", { className: "spacer" }),
-	                    _react2.default.createElement(
-	                        "div",
-	                        { className: "built-by" },
-	                        _react2.default.createElement(
-	                            "p",
-	                            null,
-	                            "Built by:"
-	                        ),
-	                        " ",
-	                        _react2.default.createElement("img", { src: "images/demand-progress.png" }),
-	                        _react2.default.createElement(
-	                            "p",
-	                            null,
-	                            "In partnership with: "
-	                        ),
-	                        " ",
-	                        _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
 	                    )
 	                )
 	            );
