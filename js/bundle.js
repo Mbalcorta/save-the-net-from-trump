@@ -164,7 +164,7 @@
 	                                '"Now is the time to stand up against this plan to destroy net neutrality \u2014 which would kill free expression and innovation online. Stand with your constituents, not Comcast.',
 	                                _react2.default.createElement('br', null),
 	                                _react2.default.createElement('br', null),
-	                                '"As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections.'
+	                                '"As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections."'
 	                            )
 	                        ),
 	                        _react2.default.createElement('hr', null),
@@ -5140,6 +5140,24 @@
 	                    { className: "logos-unit" },
 	                    _react2.default.createElement(
 	                        "div",
+	                        { className: "built-by" },
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "Built by:"
+	                        ),
+	                        " ",
+	                        _react2.default.createElement("img", { src: "images/demand-progress.png" }),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "In partnership with: "
+	                        ),
+	                        " ",
+	                        _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
 	                        { className: "logos" },
 	                        _react2.default.createElement(
 	                            "a",
@@ -5160,16 +5178,6 @@
 	                            "a",
 	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/common_cause_logo.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank" },
-	                            _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank" },
-	                            _react2.default.createElement("img", { src: "images/demand-progress.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
@@ -5304,25 +5312,6 @@
 	                                )
 	                            )
 	                        )
-	                    ),
-	                    _react2.default.createElement("div", { className: "spacer" }),
-	                    _react2.default.createElement(
-	                        "div",
-	                        { className: "built-by" },
-	                        _react2.default.createElement(
-	                            "p",
-	                            null,
-	                            "Built by:"
-	                        ),
-	                        " ",
-	                        _react2.default.createElement("img", { src: "images/demand-progress.png" }),
-	                        _react2.default.createElement(
-	                            "p",
-	                            null,
-	                            "In partnership with: "
-	                        ),
-	                        " ",
-	                        _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
 	                    )
 	                )
 	            );

@@ -6,6 +6,10 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="logos-unit">
+                    <div className="built-by">
+                        <p>Built by:</p> <img src="images/demand-progress.png" />
+                        <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
+                    </div>
                     <div className="logos">
                         <a target="_blank">
                             <img src="images/PasAFV.png" />
@@ -21,14 +25,6 @@ class Footer extends Component {
 
                         <a target="_blank">
                             <img src="images/common_cause_logo.jpg" />
-                        </a>
-
-                        <a target="_blank">
-                            <img src="images/DailyKosLogo.png" />
-                        </a>
-
-                        <a target="_blank">
-                            <img src="images/demand-progress.png" />
                         </a>
 
                         <a target="_blank">
@@ -110,11 +106,6 @@ class Footer extends Component {
                                 <span>Share on facebook</span>
                             </a>
                         </div>
-                    </div>
-                    <div className="spacer"></div>
-                    <div className="built-by">
-                        <p>Built by:</p> <img src="images/demand-progress.png" />
-                        <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
                     </div>
                 </div>
             </div>);
