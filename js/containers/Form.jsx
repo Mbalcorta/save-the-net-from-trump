@@ -16,13 +16,11 @@ class Form extends Component {
 
             <h4><strong>Sign to Tell Congress:</strong></h4>
             <h3>Oppose Trump FCC’s plan to destroy net neutrality and the open internet</h3>
-            <p><i>If implemented, the plan from Trump’s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.
+            <p style={{color: 'white'}}><strong style={{ fontSize: "30px" }}>Time is running out before Trump’s FCC and Big Cable destroy net neutrality — but we can still stop them.</strong>
                 <br/><br/>
-                Net neutrality is the core principle that protects our free speech on the internet, and ‘Title II’ of the Communications Act is what provides the legal foundation for <em>real net neutrality</em>. Without strong Title II net neutrality rules, Big Cable companies like Comcast and Verizon will be able to block, censor, and control what we see and do online.
+                <strong>Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.</strong>
                 <br/><br/>
-                Now is the time to stand up against this plan to destroy net neutrality — which would kill free expression and innovation online. Stand with your constituents, not Comcast.
-                <br/><br/>
-                As your constituent, I urge you to strongly and publicly oppose Pai’s plan to end Title II net neutrality protections.</i>
+                Add your name to send a message (below) to Congress:
             </p>
             <div style={{ 'display' : this.state.submitted ? 'none' : ''}}>
             <div className="flex">
@@ -39,6 +37,7 @@ class Form extends Component {
                 </button>
             </div>
             </div>
+            <p>Disclaimer: One or more participating organizations (listed below) may email you about their campaigns.</p>
             <h4 style={{ 'display' : this.state.submitted ? '' : 'none'}}><strong>Thanks for signing!</strong></h4>
         </form>);
     }

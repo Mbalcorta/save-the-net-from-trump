@@ -790,8 +790,8 @@ template {
 }
 
 .bftn-homepage footer .press-inquiries {
-    width: 65%;
-    float: left;
+    width: 40%;
+    float: right;
     padding-top: 10px;
     font-weight: bold;
     color: #717093;
@@ -880,7 +880,6 @@ template {
     text-align: center;
     width: 300px;
     margin: 40px auto 0;
-    background-color: #171629;
     padding: 20px 0 40px;
     line-height: 1em;
     color: #717093;
@@ -1900,7 +1899,7 @@ template {
 
     .bftn-homepage footer .press-inquiries {
         width: 100%;
-        float: none;
+        float: right;
     }
 
     .bftn-homepage footer .built-by {
