@@ -16,6 +16,10 @@ class Footer extends Component {
                         </a>
 
                         <a target="_blank">
+                            <img src="images/CHV Logo2.jpg" />
+                        </a>
+
+                        <a target="_blank">
                             <img src="images/common_cause_logo.jpg" />
                         </a>
 
@@ -73,6 +77,14 @@ class Footer extends Component {
 
                         <a target="_blank">
                             <img src="images/RootsAction.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/SumOfUs_lg_color.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/TZH Logo.jpg" />
                         </a>
                     </div>
                     <div className="spacer"></div>

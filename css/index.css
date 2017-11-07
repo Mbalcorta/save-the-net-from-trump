@@ -2056,3 +2056,9 @@ template {
 .form-input {
     flex-wrap: wrap;
 }
+
+.back-to-form-link {
+    font-weight: bold;
+    color: #ff1a09;
+    font-size: 24px;
+}

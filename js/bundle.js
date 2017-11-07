@@ -142,21 +142,40 @@
 	                        { className: 'unit' },
 	                        _react2.default.createElement(
 	                            'p',
-	                            { style: { color: 'white' } },
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'Here\'s the language that will be sent to Congress: "If implemented, the plan from Trump\u2019s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'Net neutrality is the core principle that protects our free speech on the internet, and \u2018Title II\u2019 of the Communications Act is what provides the legal foundation for real net neutrality. Without strong Title II net neutrality rules, Big Cable companies like Comcast and Verizon will be able to block, censor, and control what we see and do online.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'Now is the time to stand up against this plan to destroy net neutrality \u2014 which would kill free expression and innovation online. Stand with your constituents, not Comcast.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections."',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
+	                            { style: { color: 'white', textAlign: 'center' } },
+	                            _react2.default.createElement(
+	                                'h4',
+	                                null,
+	                                'Here\'s the language that will be sent to Congress:'
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            { style: { color: 'white', textAlign: 'center' } },
+	                            _react2.default.createElement(
+	                                'i',
+	                                null,
+	                                '"If implemented, the plan from Trump\u2019s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.',
+	                                _react2.default.createElement('br', null),
+	                                _react2.default.createElement('br', null),
+	                                '"Net neutrality is the core principle that protects our free speech on the internet, and \u2018Title II\u2019 of the Communications Act is what provides the legal foundation for real net neutrality. Without strong Title II net neutrality rules, Big Cable companies like Comcast and Verizon will be able to block, censor, and control what we see and do online.',
+	                                _react2.default.createElement('br', null),
+	                                _react2.default.createElement('br', null),
+	                                '"Now is the time to stand up against this plan to destroy net neutrality \u2014 which would kill free expression and innovation online. Stand with your constituents, not Comcast.',
+	                                _react2.default.createElement('br', null),
+	                                _react2.default.createElement('br', null),
+	                                '"As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections.'
+	                            )
+	                        ),
+	                        _react2.default.createElement('hr', null),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            _react2.default.createElement(
+	                                'h4',
+	                                { style: { color: 'white' } },
+	                                'More information:'
+	                            ),
 	                            'If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience \u2014 fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.',
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
@@ -176,12 +195,12 @@
 	                            ),
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
-	                            'Without net neutrality, the Internet will look more like cable TV \u2014 where the content we see is controlled by corporations like Comcast and Verizon. We can\u2019t afford to see the internet\u2014a place where the exchange of ideas, democratic participation and the ability to organize has flourished\u2014turn into cable TV. ',
-	                            _react2.default.createElement(
-	                                'strong',
-	                                null,
-	                                'Sign the petition and call Congress today.'
-	                            )
+	                            'Without net neutrality, the Internet will look more like cable TV \u2014 where the content we see is controlled by corporations like Comcast and Verizon. We can\u2019t afford to see the internet\u2014a place where the exchange of ideas, democratic participation and the ability to organize has flourished\u2014turn into cable TV.'
+	                        ),
+	                        _react2.default.createElement(
+	                            'a',
+	                            { className: 'back-to-form-link', href: '#signThePetition' },
+	                            'Sign the petition and call Congress today.'
 	                        )
 	                    )
 	                )
@@ -4854,7 +4873,7 @@
 	                ),
 	                _react2.default.createElement(
 	                    'div',
-	                    { style: { 'display': this.state.submitted ? 'none' : '' } },
+	                    { id: 'signThePetition', style: { 'display': this.state.submitted ? 'none' : '' } },
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'flex' },
@@ -4882,12 +4901,12 @@
 	                    )
 	                ),
 	                _react2.default.createElement(
-	                    'p',
+	                    'span',
 	                    null,
 	                    _react2.default.createElement(
 	                        'i',
 	                        null,
-	                        'One or more participating organizations (listed below) may email you about their campaigns.'
+	                        'One or more participating organizations (listed at bottom) may email you about their campaigns.'
 	                    )
 	                ),
 	                _react2.default.createElement(
@@ -5108,6 +5127,11 @@
 	                        _react2.default.createElement(
 	                            "a",
 	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/CHV Logo2.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/common_cause_logo.jpg" })
 	                        ),
 	                        _react2.default.createElement(
@@ -5179,6 +5203,16 @@
 	                            "a",
 	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/RootsAction.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/SumOfUs_lg_color.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/TZH Logo.jpg" })
 	                        )
 	                    ),
 	                    _react2.default.createElement("div", { className: "spacer" }),

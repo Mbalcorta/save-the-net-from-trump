@@ -22,7 +22,7 @@ class Form extends Component {
                 <br/><br/>
                 Add your name to send a message (below) to Congress:
             </p>
-            <div style={{ 'display' : this.state.submitted ? 'none' : ''}}>
+            <div id="signThePetition" style={{ 'display' : this.state.submitted ? 'none' : ''}}>
             <div className="flex">
                 <input type="text" className="form-input" name="name" placeholder="Your Name" />
                 <input type="email" className="form-input" name="email" placeholder="Your Email" />
@@ -37,7 +37,7 @@ class Form extends Component {
                 </button>
             </div>
             </div>
-            <p><i>One or more participating organizations (listed below) may email you about their campaigns.</i></p>
+            <span><i>One or more participating organizations (listed at bottom) may email you about their campaigns.</i></span>
             <h4 style={{ 'display' : this.state.submitted ? '' : 'none'}}><strong>Thanks for signing!</strong></h4>
         </form>);
     }
