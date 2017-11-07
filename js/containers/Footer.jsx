@@ -24,6 +24,10 @@ class Footer extends Component {
                         </a>
 
                         <a target="_blank">
+                            <img src="images/demand-progress.png" />
+                        </a>
+
+                        <a target="_blank">
                             <img src="images/fp-actionfund.png" />
                         </a>
 
@@ -40,34 +44,34 @@ class Footer extends Component {
                         </a>
 
                         <a target="_blank">
-                            <img style={{maxWidth: '150px'}} src="images/Logo-PeopleDemandingAction.jpg" />
+                            <img src="images/Logo-PeopleDemandingAction.jpg" />
                         </a>
 
-                        <a target="_blank" href="">
+                        <a target="_blank">
                             <img src="images/Pen_Box_lrg (1).jpg" />
                         </a>
 
-                        <a target="_blank" href="http://www.pfaw.org/">
+                        <a target="_blank">
                             <img src="images/PFAW.png" />
                         </a>
 
-                        <a target="_blank" href="">
+                        <a target="_blank">
                             <img src="images/PresenteAction2016.png" />
                         </a>
 
-                        <a target="_blank" href="">
+                        <a target="_blank">
                             <img src="images/IMG_8465.jpg" />
                         </a>
 
-                        <a target="_blank" href="">
+                        <a target="_blank">
                             <img src="images/PC logo-high resolution.jpg" />
                         </a>
 
-                        <a target="_blank" href="">
+                        <a target="_blank">
                             <img src="images/pkname-large (4).png" />
                         </a>
 
-                        <a target="_blank" href="http://rootsaction.org/">
+                        <a target="_blank">
                             <img src="images/RootsAction.png" />
                         </a>
                     </div>
@@ -89,7 +93,7 @@ class Footer extends Component {
                                 <img src="images/twitter_white.svg" />
                                 <span>Share on twitter</span>
                             </a>
-                            <a className="facebook" href="https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/" target="_blank">
+                            <a className="facebook" href="https://www.facebook.com/sharer.php?u=https://www.savethenetfromtrump.com/" target="_blank">
                                 <img src="images/facebook_white.svg" />
                                 <span>Share on facebook</span>
                             </a>
@@ -97,7 +101,7 @@ class Footer extends Component {
                     </div>
                     <div className="spacer"></div>
                     <div className="built-by">
-                        <span>Built by:</span> <img src="images/demand-progress.png" />
+                        <p>Built by:</p> <img src="images/demand-progress.png" />
                         <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
                     </div>
                 </div>

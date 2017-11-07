@@ -37,7 +37,7 @@ class Form extends Component {
                 </button>
             </div>
             </div>
-            <p>Disclaimer: One or more participating organizations (listed below) may email you about their campaigns.</p>
+            <p><i>One or more participating organizations (listed below) may email you about their campaigns.</i></p>
             <h4 style={{ 'display' : this.state.submitted ? '' : 'none'}}><strong>Thanks for signing!</strong></h4>
         </form>);
     }

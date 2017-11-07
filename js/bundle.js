@@ -4884,7 +4884,11 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    null,
-	                    'Disclaimer: One or more participating organizations (listed below) may email you about their campaigns.'
+	                    _react2.default.createElement(
+	                        'i',
+	                        null,
+	                        'One or more participating organizations (listed below) may email you about their campaigns.'
+	                    )
 	                ),
 	                _react2.default.createElement(
 	                    'h4',
@@ -5114,6 +5118,11 @@
 	                        _react2.default.createElement(
 	                            "a",
 	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/demand-progress.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/fp-actionfund.png" })
 	                        ),
 	                        _react2.default.createElement(
@@ -5134,41 +5143,41 @@
 	                        _react2.default.createElement(
 	                            "a",
 	                            { target: "_blank" },
-	                            _react2.default.createElement("img", { style: { maxWidth: '150px' }, src: "images/Logo-PeopleDemandingAction.jpg" })
+	                            _react2.default.createElement("img", { src: "images/Logo-PeopleDemandingAction.jpg" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/Pen_Box_lrg (1).jpg" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "http://www.pfaw.org/" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/PFAW.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/PresenteAction2016.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/IMG_8465.jpg" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/PC logo-high resolution.jpg" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/pkname-large (4).png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "http://rootsaction.org/" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/RootsAction.png" })
 	                        )
 	                    ),
@@ -5225,7 +5234,7 @@
 	                            ),
 	                            _react2.default.createElement(
 	                                "a",
-	                                { className: "facebook", href: "https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/", target: "_blank" },
+	                                { className: "facebook", href: "https://www.facebook.com/sharer.php?u=https://www.savethenetfromtrump.com/", target: "_blank" },
 	                                _react2.default.createElement("img", { src: "images/facebook_white.svg" }),
 	                                _react2.default.createElement(
 	                                    "span",
@@ -5240,7 +5249,7 @@
 	                        "div",
 	                        { className: "built-by" },
 	                        _react2.default.createElement(
-	                            "span",
+	                            "p",
 	                            null,
 	                            "Built by:"
 	                        ),
