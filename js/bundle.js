@@ -170,12 +170,12 @@
 	                        _react2.default.createElement('hr', null),
 	                        _react2.default.createElement(
 	                            'h4',
-	                            { style: { color: 'white' } },
+	                            { style: { color: 'white', textAlign: 'center' } },
 	                            'More information:'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
-	                            null,
+	                            { style: { textAlign: 'center' } },
 	                            'If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience \u2014 fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.',
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
@@ -195,12 +195,14 @@
 	                            ),
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
-	                            'Without net neutrality, the Internet will look more like cable TV \u2014 where the content we see is controlled by corporations like Comcast and Verizon. We can\u2019t afford to see the internet\u2014a place where the exchange of ideas, democratic participation and the ability to organize has flourished\u2014turn into cable TV.'
-	                        ),
-	                        _react2.default.createElement(
-	                            'a',
-	                            { className: 'back-to-form-link', href: '#signThePetition' },
-	                            'Sign the petition and call Congress today.'
+	                            'Without net neutrality, the Internet will look more like cable TV \u2014 where the content we see is controlled by corporations like Comcast and Verizon. We can\u2019t afford to see the internet\u2014a place where the exchange of ideas, democratic participation and the ability to organize has flourished\u2014turn into cable TV.',
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement(
+	                                'a',
+	                                { className: 'back-to-form-link', href: '#signThePetition' },
+	                                'Sign the petition and call Congress today.'
+	                            )
 	                        )
 	                    )
 	                )
@@ -4907,7 +4909,7 @@
 	                    _react2.default.createElement(
 	                        'i',
 	                        null,
-	                        'One or more participating organizations (listed at bottom) may email you about their campaigns.'
+	                        'One or more of the participating organizations (listed at bottom) may email you about their campaigns.'
 	                    )
 	                ),
 	                _react2.default.createElement(

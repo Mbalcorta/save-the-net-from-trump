@@ -38,7 +38,7 @@ class Form extends Component {
                 </button>
             </div>
             </div>
-            <span><i>One or more participating organizations (listed at bottom) may email you about their campaigns.</i></span>
+            <span><i>One or more of the participating organizations (listed at bottom) may email you about their campaigns.</i></span>
             <div id="thanks" style={{ 'display' : this.state.submitted ? '' : 'none'}}>
                 <h4>Thanks for signing.</h4>
                 <p>

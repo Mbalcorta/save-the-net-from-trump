@@ -2059,8 +2059,9 @@ template {
 
 .back-to-form-link {
     font-weight: bold;
-    color: #ff1a09;
+    color: #ff1a09 !important;
     font-size: 24px;
+    text-align: center;
 }
 
 #thanks {
