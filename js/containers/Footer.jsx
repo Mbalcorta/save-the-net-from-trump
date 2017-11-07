@@ -7,68 +7,72 @@ class Footer extends Component {
             <div className="footer">
                 <div className="logos-unit">
                     <div className="logos">
-                        <a target="_blank" href="https://www.dailykos.com/">
-                            <img src="images/DailyKosLogo.png" />
-                        </a>
-
-                        <a target="_blank" href="https://www.lovearmy.org/">
-                            <img src="images/Love Army 1.png" />
-                        </a>
-
-                        <a target="_blank" href="https://www.thenation.com/">
-                            <img src="images/Nation.jpg" />
-                        </a>
-
-                        <a target="_blank" href="http://www.pfaw.org/">
-                            <img src="images/PFAW.png" />
-                        </a>
-
-                        <a target="_blank" href="http://rootsaction.org/">
-                            <img src="images/RootsAction.png" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/CMJ logo hi-res.jpg" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/CC_Logo_RBGWeb.jpg" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/pkname-large (4).png" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/IMG_9304.jpg" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/Pen_Box_lrg (1).jpg" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/IMG_8465.jpg" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/fp-actionfund.png" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/PC logo-high resolution.jpg" />
-                        </a>
-
-                        <a target="_blank" href="">
-                            <img src="images/PresenteAction2016.png" />
-                        </a>
-
-                        <a target="_blank" href="">
+                        <a target="_blank">
                             <img src="images/PasAFV.png" />
                         </a>
 
-                        <a target="_blank" href="http://www.peopledemandingaction.org/">
-                            <img style={{maxWidth: '150px'}} src="images/Logo-PeopleDemandingAction.jpg" />
+                        <a target="_blank">
+                            <img src="images/CMJ logo hi-res.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/common_cause_logo.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/DailyKosLogo.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/demand-progress.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/fp-actionfund.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/LoveArmy.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/Nation.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/IMG_9304.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/Logo-PeopleDemandingAction.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/Pen_Box_lrg (1).jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/PFAW.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/PresenteAction2016.png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/IMG_8465.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/PC logo-high resolution.jpg" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/pkname-large (4).png" />
+                        </a>
+
+                        <a target="_blank">
+                            <img src="images/RootsAction.png" />
                         </a>
                     </div>
                     <div className="spacer"></div>
@@ -89,7 +93,7 @@ class Footer extends Component {
                                 <img src="images/twitter_white.svg" />
                                 <span>Share on twitter</span>
                             </a>
-                            <a className="facebook" href="https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/" target="_blank">
+                            <a className="facebook" href="https://www.facebook.com/sharer.php?u=https://www.savethenetfromtrump.com/" target="_blank">
                                 <img src="images/facebook_white.svg" />
                                 <span>Share on facebook</span>
                             </a>
@@ -97,7 +101,8 @@ class Footer extends Component {
                     </div>
                     <div className="spacer"></div>
                     <div className="built-by">
-                        <span>Built by:</span> <img src="images/demand-progress.png" />
+                        <p>Built by:</p> <img src="images/demand-progress.png" />
+                        <p>In partnership with: </p> <img src="images/DailyKosLogo.png" />
                     </div>
                 </div>
             </div>);

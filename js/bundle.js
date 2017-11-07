@@ -143,18 +143,18 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            { style: { color: 'white' } },
-	                            _react2.default.createElement(
-	                                'strong',
-	                                { style: { fontSize: "30px" } },
-	                                'Time is running out before Trump\u2019s FCC and Big Cable destroy net neutrality \u2014 but we can still stop them.'
-	                            ),
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement(
-	                                'strong',
-	                                null,
-	                                'Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.'
-	                            ),
+	                            'Here\'s the language that will be sent to Congress: "If implemented, the plan from Trump\u2019s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.',
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'Net neutrality is the core principle that protects our free speech on the internet, and \u2018Title II\u2019 of the Communications Act is what provides the legal foundation for real net neutrality. Without strong Title II net neutrality rules, Big Cable companies like Comcast and Verizon will be able to block, censor, and control what we see and do online.',
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'Now is the time to stand up against this plan to destroy net neutrality \u2014 which would kill free expression and innovation online. Stand with your constituents, not Comcast.',
+	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null),
+	                            'As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections."',
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
 	                            'If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience \u2014 fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.',
@@ -4835,27 +4835,22 @@
 	                ),
 	                _react2.default.createElement(
 	                    'p',
-	                    null,
+	                    { style: { color: 'white' } },
 	                    _react2.default.createElement(
-	                        'i',
+	                        'strong',
+	                        { style: { fontSize: "30px" } },
+	                        'Time is running out before Trump\u2019s FCC and Big Cable destroy net neutrality \u2014 but we can still stop them.'
+	                    ),
+	                    _react2.default.createElement('br', null),
+	                    _react2.default.createElement('br', null),
+	                    _react2.default.createElement(
+	                        'strong',
 	                        null,
-	                        'If implemented, the plan from Trump\u2019s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.',
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'Net neutrality is the core principle that protects our free speech on the internet, and \u2018Title II\u2019 of the Communications Act is what provides the legal foundation for ',
-	                        _react2.default.createElement(
-	                            'em',
-	                            null,
-	                            'real net neutrality'
-	                        ),
-	                        '. Without strong Title II net neutrality rules, Big Cable companies like Comcast and Verizon will be able to block, censor, and control what we see and do online.',
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'Now is the time to stand up against this plan to destroy net neutrality \u2014 which would kill free expression and innovation online. Stand with your constituents, not Comcast.',
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        'As your constituent, I urge you to strongly and publicly oppose Pai\u2019s plan to end Title II net neutrality protections.'
-	                    )
+	                        'Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.'
+	                    ),
+	                    _react2.default.createElement('br', null),
+	                    _react2.default.createElement('br', null),
+	                    'Add your name to send a message (below) to Congress:'
 	                ),
 	                _react2.default.createElement(
 	                    'div',
@@ -4884,6 +4879,15 @@
 	                                'Submit'
 	                            )
 	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'p',
+	                    null,
+	                    _react2.default.createElement(
+	                        'i',
+	                        null,
+	                        'One or more participating organizations (listed below) may email you about their campaigns.'
 	                    )
 	                ),
 	                _react2.default.createElement(
@@ -5093,83 +5097,88 @@
 	                        { className: "logos" },
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "https://www.dailykos.com/" },
-	                            _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "https://www.lovearmy.org/" },
-	                            _react2.default.createElement("img", { src: "images/Love Army 1.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "https://www.thenation.com/" },
-	                            _react2.default.createElement("img", { src: "images/Nation.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "http://www.pfaw.org/" },
-	                            _react2.default.createElement("img", { src: "images/PFAW.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "http://rootsaction.org/" },
-	                            _react2.default.createElement("img", { src: "images/RootsAction.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/CMJ logo hi-res.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/CC_Logo_RBGWeb.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/pkname-large (4).png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/IMG_9304.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/Pen_Box_lrg (1).jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/IMG_8465.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/fp-actionfund.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/PC logo-high resolution.jpg" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
-	                            _react2.default.createElement("img", { src: "images/PresenteAction2016.png" })
-	                        ),
-	                        _react2.default.createElement(
-	                            "a",
-	                            { target: "_blank", href: "" },
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/PasAFV.png" })
 	                        ),
 	                        _react2.default.createElement(
 	                            "a",
-	                            { target: "_blank", href: "http://www.peopledemandingaction.org/" },
-	                            _react2.default.createElement("img", { style: { maxWidth: '150px' }, src: "images/Logo-PeopleDemandingAction.jpg" })
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/CMJ logo hi-res.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/common_cause_logo.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/demand-progress.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/fp-actionfund.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/LoveArmy.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/Nation.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/IMG_9304.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/Logo-PeopleDemandingAction.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/Pen_Box_lrg (1).jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/PFAW.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/PresenteAction2016.png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/IMG_8465.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/PC logo-high resolution.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/pkname-large (4).png" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/RootsAction.png" })
 	                        )
 	                    ),
 	                    _react2.default.createElement("div", { className: "spacer" }),
@@ -5225,7 +5234,7 @@
 	                            ),
 	                            _react2.default.createElement(
 	                                "a",
-	                                { className: "facebook", href: "https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/", target: "_blank" },
+	                                { className: "facebook", href: "https://www.facebook.com/sharer.php?u=https://www.savethenetfromtrump.com/", target: "_blank" },
 	                                _react2.default.createElement("img", { src: "images/facebook_white.svg" }),
 	                                _react2.default.createElement(
 	                                    "span",
@@ -5240,12 +5249,19 @@
 	                        "div",
 	                        { className: "built-by" },
 	                        _react2.default.createElement(
-	                            "span",
+	                            "p",
 	                            null,
 	                            "Built by:"
 	                        ),
 	                        " ",
-	                        _react2.default.createElement("img", { src: "images/demand-progress.png" })
+	                        _react2.default.createElement("img", { src: "images/demand-progress.png" }),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "In partnership with: "
+	                        ),
+	                        " ",
+	                        _react2.default.createElement("img", { src: "images/DailyKosLogo.png" })
 	                    )
 	                )
 	            );

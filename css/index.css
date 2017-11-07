@@ -752,11 +752,12 @@ template {
 
 .bftn-homepage footer {
     background-color: #1f1c35;
-    padding: 30px 30px 0px 30px;
+    padding: 0px 30px 0px 30px;
     margin-top: 100px;
 }
 
 .bftn-homepage footer .logos {
+    background-color: #fff;
     width: 1000px;
     padding: 20px 0;
     border-bottom: 2px solid #393558;
@@ -773,7 +774,7 @@ template {
 }
 
 .bftn-homepage footer .logos img {
-    max-width: 250px;
+    max-width: 200px;
     margin: 15px;
 }
 
@@ -790,8 +791,8 @@ template {
 }
 
 .bftn-homepage footer .press-inquiries {
-    width: 65%;
-    float: left;
+    width: 40%;
+    float: right;
     padding-top: 10px;
     font-weight: bold;
     color: #717093;
@@ -880,7 +881,6 @@ template {
     text-align: center;
     width: 300px;
     margin: 40px auto 0;
-    background-color: #171629;
     padding: 20px 0 40px;
     line-height: 1em;
     color: #717093;
@@ -890,7 +890,7 @@ template {
 .bftn-homepage footer .built-by img {
     position: relative;
     top: 2px;
-    width: 300px;
+    width: 200px;
 }
 
 .bftn-homepage .video-roll {
@@ -1774,6 +1774,11 @@ template {
 @media screen and (max-width: 800px) {
     .bftn-homepage .unit {
         width: 90%;
+        display: block;
+    }
+
+    .bftn-homepage footer .logos-unit {
+        width: 90%;
     }
 
     .bftn-homepage .unit p {
@@ -1891,7 +1896,6 @@ template {
         margin: 0;
         border: none;
         text-align: center;
-        float: none;
     }
 
     .bftn-homepage footer .social-media .twitter {
@@ -1900,7 +1904,7 @@ template {
 
     .bftn-homepage footer .press-inquiries {
         width: 100%;
-        float: none;
+        float: right;
     }
 
     .bftn-homepage footer .built-by {
@@ -2009,7 +2013,7 @@ template {
     }
 
     .bftn-homepage .hero .call-action-form h3 {
-        font-size: 26px;
+        font-size: 39px;
     }
 }
 

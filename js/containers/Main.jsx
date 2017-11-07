@@ -14,9 +14,14 @@ class Main extends Component {
                 </div>
                 <div className="unit">
                     <p style={{color: 'white'}}>
-                    <strong style={{ fontSize: "30px" }}>Time is running out before Trump’s FCC and Big Cable destroy net neutrality — but we can still stop them.</strong>
                     <br/><br/>
-                    <strong>Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.</strong>
+                    Here's the language that will be sent to Congress: "If implemented, the plan from Trump’s FCC Chairman Ajit Pai to end net neutrality would be catastrophic for the open internet.
+                    <br/><br/>
+                    Net neutrality is the core principle that protects our free speech on the internet, and ‘Title II’ of the Communications Act is what provides the legal foundation for real net neutrality. Without strong Title II net neutrality rules, Big Cable companies like Comcast and Verizon will be able to block, censor, and control what we see and do online.
+                    <br/><br/>
+                    Now is the time to stand up against this plan to destroy net neutrality — which would kill free expression and innovation online. Stand with your constituents, not Comcast.
+                    <br/><br/>
+                    As your constituent, I urge you to strongly and publicly oppose Pai’s plan to end Title II net neutrality protections."
                     <br/><br/>
                     If Pai gets his way and ends net neutrality, Big Cable companies like his old employer Verizon, as well as Comcast and AT&T, will be able to slow down and block websites, or charge sites extra fees to reach an audience — fees that will get passed directly to people like you. Big Cable will be able to curtail free and open expression on the internet. This will affect online campaigning, especially among communities of color, who also rely on online media to share their stories.
                     <br/><br/>
