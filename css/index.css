@@ -1909,6 +1909,11 @@ template {
 
     .bftn-homepage footer .built-by {
         padding-bottom: 80px;
+        width: auto;
+    }
+
+    .bftn-homepage footer .built-by img {
+        width: 100%;
     }
 }
 

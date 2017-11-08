@@ -5186,6 +5186,11 @@
 	                        _react2.default.createElement(
 	                            "a",
 	                            { target: "_blank" },
+	                            _react2.default.createElement("img", { src: "images/Consumers-Union.jpg" })
+	                        ),
+	                        _react2.default.createElement(
+	                            "a",
+	                            { target: "_blank" },
 	                            _react2.default.createElement("img", { src: "images/fp-actionfund.png" })
 	                        ),
 	                        _react2.default.createElement(

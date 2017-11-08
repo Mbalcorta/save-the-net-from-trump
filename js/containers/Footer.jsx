@@ -28,6 +28,10 @@ class Footer extends Component {
                         </a>
 
                         <a target="_blank">
+                            <img src="images/Consumers-Union.jpg" />
+                        </a>
+
+                        <a target="_blank">
                             <img src="images/fp-actionfund.png" />
                         </a>
 
