@@ -4923,17 +4923,45 @@
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        'Now we will forward you to a page that makes it easy for you to call Congress about net neutrality --\xA0',
 	                        _react2.default.createElement(
 	                            'strong',
-	                            null,
-	                            'which is the best way to have a big impact.'
-	                        )
+	                            { style: { fontSize: '20px' } },
+	                            'Now, one of the most impactful things you can do to help save net neutrality before Nov. 22 is to make phone calls to Congress.'
+	                        ),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        'If offices get more phone calls from constituents, we can persuade them to stop the catastrophic plan to repeal net neutrality.'
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
+	                        { style: { textAlign: 'right' } },
+	                        'Please Call: ',
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'tel:4243634877' },
+	                            '424-363-4877'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'p',
 	                        null,
-	                        this.state.countDown
+	                        'We will connect you to the offices of your lawmakers.',
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        'You can use this script when talking to them -- ',
+	                        _react2.default.createElement(
+	                            'strong',
+	                            null,
+	                            'just introduce yourself, be polite, and say'
+	                        ),
+	                        ':',
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement(
+	                            'i',
+	                            { style: { textAlign: 'center' } },
+	                            '"I support \'Title Two\' net neutrality rules and I urge you to oppose the FCC\'s plan to repeal them. Specifically, I\'d like you to contact the FCC Chairman and demand he abandon his current plan."'
+	                        )
 	                    )
 	                )
 	            );
@@ -5005,11 +5033,10 @@
 	                'want_progress': 1
 	            };
 
+	            this.setState({ submitted: true });
 	            this.sendFormToActionKit(fields);
 
-	            this.setState({ submitted: true });
-
-	            setInterval(this.countDownToRedirect.bind(this), 1000);
+	            // setInterval(this.countDownToRedirect.bind(this), 1000);
 	        }
 	    }, {
 	        key: 'sendFormToActionKit',

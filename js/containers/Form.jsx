@@ -42,10 +42,20 @@ class Form extends Component {
             <div id="thanks" style={{ 'display' : this.state.submitted ? '' : 'none'}}>
                 <h4>Thanks for signing.</h4>
                 <p>
-                    Now we will forward you to a page that makes it easy for you to call Congress about net neutrality --&nbsp;
-                    <strong>which is the best way to have a big impact.</strong>
+                    <strong style={{fontSize: '20px'}}>
+                        Now, one of the most impactful things you can do to help save net neutrality before Nov. 22 is to make phone calls to Congress.
+                    </strong>
+                    <br/><br/>
+                    If offices get more phone calls from constituents, we can persuade them to stop the catastrophic plan to repeal net neutrality.
                 </p>
-                <h4>{this.state.countDown}</h4>
+                <h4 style={{textAlign: 'right'}}>Please Call: <a href="tel:4243634877">424-363-4877</a></h4>
+                <p>
+                    We will connect you to the offices of your lawmakers.
+                    <br/><br/>
+                    You can use this script when talking to them -- <strong>just introduce yourself, be polite, and say</strong>:
+                    <br/><br/>
+                    <i style={{textAlign: 'center'}}>"I support 'Title Two' net neutrality rules and I urge you to oppose the FCC's plan to repeal them. Specifically, I'd like you to contact the FCC Chairman and demand he abandon his current plan."</i>
+                </p>
             </div>
         </form>);
     }
@@ -115,11 +125,10 @@ class Form extends Component {
             'want_progress': 1
         };
 
+        this.setState({ submitted: true });
         this.sendFormToActionKit(fields);
 
-        this.setState({ submitted: true });
-
-        setInterval(this.countDownToRedirect.bind(this), 1000);
+        // setInterval(this.countDownToRedirect.bind(this), 1000);
     }
 
     sendFormToActionKit(fields) {
