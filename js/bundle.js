@@ -4934,7 +4934,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'h4',
-	                        { style: { textAlign: 'right' } },
+	                        null,
 	                        'Please Call: ',
 	                        _react2.default.createElement(
 	                            'a',
@@ -4959,7 +4959,7 @@
 	                        _react2.default.createElement('br', null),
 	                        _react2.default.createElement(
 	                            'i',
-	                            { style: { textAlign: 'center' } },
+	                            null,
 	                            '"I support \'Title Two\' net neutrality rules and I urge you to oppose the FCC\'s plan to repeal them. Specifically, I\'d like you to contact the FCC Chairman and demand he abandon his current plan."'
 	                        )
 	                    )

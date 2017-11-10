@@ -48,13 +48,13 @@ class Form extends Component {
                     <br/><br/>
                     If offices get more phone calls from constituents, we can persuade them to stop the catastrophic plan to repeal net neutrality.
                 </p>
-                <h4 style={{textAlign: 'right'}}>Please Call: <a href="tel:4243634877">424-363-4877</a></h4>
+                <h4>Please Call: <a href="tel:4243634877">424-363-4877</a></h4>
                 <p>
                     We will connect you to the offices of your lawmakers.
                     <br/><br/>
                     You can use this script when talking to them -- <strong>just introduce yourself, be polite, and say</strong>:
                     <br/><br/>
-                    <i style={{textAlign: 'center'}}>"I support 'Title Two' net neutrality rules and I urge you to oppose the FCC's plan to repeal them. Specifically, I'd like you to contact the FCC Chairman and demand he abandon his current plan."</i>
+                    <i>"I support 'Title Two' net neutrality rules and I urge you to oppose the FCC's plan to repeal them. Specifically, I'd like you to contact the FCC Chairman and demand he abandon his current plan."</i>
                 </p>
             </div>
         </form>);
