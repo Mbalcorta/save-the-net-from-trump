@@ -127,8 +127,6 @@ class Form extends Component {
 
         this.setState({ submitted: true });
         this.sendFormToActionKit(fields);
-
-        // setInterval(this.countDownToRedirect.bind(this), 1000);
     }
 
     sendFormToActionKit(fields) {

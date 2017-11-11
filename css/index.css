@@ -1972,6 +1972,11 @@ template {
     .bftn-homepage .hero .call-action-form h3 {
         font-size: 36px;
     }
+
+    #thanks {
+        bottom: 0;
+        overflow-y: scroll;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -2075,7 +2080,7 @@ template {
     padding: 10px;
     background-color: #fff;
     border: 2px solid;
-    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    margin: 0 auto; /* Will not center vertically and won't work in IE6/7. */
     left: 0;
     right: 0;
     border-radius: 5px;
