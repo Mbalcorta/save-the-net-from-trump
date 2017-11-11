@@ -1972,11 +1972,6 @@ template {
     .bftn-homepage .hero .call-action-form h3 {
         font-size: 36px;
     }
-
-    #thanks {
-        bottom: 0;
-        overflow-y: scroll;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -2086,6 +2081,8 @@ template {
     border-radius: 5px;
     z-index: 1000;
     max-width: 400px;
+    bottom: 0;
+    overflow-y: scroll;
 }
 
 #thanks p {
