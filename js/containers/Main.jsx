@@ -32,7 +32,7 @@ class Main extends Component {
                         <br/><br/>
                         The U.S. public overwhelmingly supports net neutrality, regardless of political affiliations. <strong>Now, we’re hearing that key lawmakers are considering taking action to slow Pai down — but they need to hear more from constituents to push them to act. That’s where you come in.</strong>
                         <br/><br/>
-                        If we flood Congress with petitions and calls, there’s a chance we can still stop Trump’s hand-picked FCC Chair Ajit Pai and Big Cable before November 22. <strong>Will you sign the petition and call Congress to let your lawmakers know you want them to publicly oppose Pai’s plan to destroy net neutrality?</strong>
+                        If we flood Congress with petitions and calls, there’s a chance we can still stop Trump’s hand-picked FCC Chair Ajit Pai and Big Cable before December 14th. <strong>Will you sign the petition and call Congress to let your lawmakers know you want them to publicly oppose Pai’s plan to destroy net neutrality?</strong>
                         <br/><br/>
                         Without net neutrality, the Internet will look more like cable TV — where the content we see is controlled by corporations like Comcast and Verizon. We can’t afford to see the internet—a place where the exchange of ideas, democratic participation and the ability to organize has flourished—turn into cable TV.
                         <br/><br/>

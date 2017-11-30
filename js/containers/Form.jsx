@@ -19,7 +19,7 @@ class Form extends Component {
             <h3>Oppose Trump FCC’s plan to destroy net neutrality and the open internet</h3>
             <p style={{color: 'white'}}><strong style={{ fontSize: "30px" }}>Time is running out before Trump’s FCC and Big Cable destroy net neutrality — but we can still stop them.</strong>
                 <br/><br/>
-                <strong>Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.</strong>
+                <strong>Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, has announced a vote on a plan to end net neutrality on December 14th.</strong>
                 <br/><br/>
                 Add your name to send a message (below) to Congress:
             </p>
@@ -43,7 +43,7 @@ class Form extends Component {
                 <h4>Thanks for signing.</h4>
                 <p>
                     <strong style={{fontSize: '20px'}}>
-                        Now, one of the most impactful things you can do to help save net neutrality before Nov. 22 is to make phone calls to Congress.
+                        Now, one of the most impactful things you can do to help save net neutrality before Dec. 14th is to make phone calls to Congress.
                     </strong>
                     <br/><br/>
                     If offices get more phone calls from constituents, we can persuade them to stop the catastrophic plan to repeal net neutrality.

@@ -187,7 +187,7 @@
 	                            ),
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null),
-	                            'If we flood Congress with petitions and calls, there\u2019s a chance we can still stop Trump\u2019s hand-picked FCC Chair Ajit Pai and Big Cable before November 22. ',
+	                            'If we flood Congress with petitions and calls, there\u2019s a chance we can still stop Trump\u2019s hand-picked FCC Chair Ajit Pai and Big Cable before December 14th. ',
 	                            _react2.default.createElement(
 	                                'strong',
 	                                null,
@@ -4868,7 +4868,7 @@
 	                    _react2.default.createElement(
 	                        'strong',
 	                        null,
-	                        'Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, is expected to announce a vote on a plan to end net neutrality as soon as November 22, the day before Thanksgiving.'
+	                        'Trump-appointed FCC Chairman Ajit Pai, a former lawyer for Verizon, has announced a vote on a plan to end net neutrality on December 14th.'
 	                    ),
 	                    _react2.default.createElement('br', null),
 	                    _react2.default.createElement('br', null),
@@ -4926,7 +4926,7 @@
 	                        _react2.default.createElement(
 	                            'strong',
 	                            { style: { fontSize: '20px' } },
-	                            'Now, one of the most impactful things you can do to help save net neutrality before Nov. 22 is to make phone calls to Congress.'
+	                            'Now, one of the most impactful things you can do to help save net neutrality before Dec. 14th is to make phone calls to Congress.'
 	                        ),
 	                        _react2.default.createElement('br', null),
 	                        _react2.default.createElement('br', null),
